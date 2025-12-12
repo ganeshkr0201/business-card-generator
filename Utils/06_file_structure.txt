@@ -1,0 +1,51 @@
+digital-business-card/
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── db.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── cardController.js
+│   │   │   └── uploadController.js
+│   │   ├── middleware/
+│   │   │   └── authMiddleware.js
+│   │   ├── models/
+│   │   │   ├── User.js
+│   │   │   └── Card.js
+│   │   ├── routes/
+│   │   │   ├── authRoutes.js
+│   │   │   ├── cardRoutes.js
+│   │   │   └── uploadRoutes.js
+│   │   ├── utils/
+│   │   │   └── generateQR.js
+│   │   └── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── CardPreview.jsx
+│   │   │   └── InputField.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── CreateCard.jsx
+│   │   │   ├── EditCard.jsx
+│   │   │   └── PublicCard.jsx
+│   │   ├── api/
+│   │   │   ├── authAPI.js
+│   │   │   └── cardAPI.js
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   ├── utils/
+│   │   │   └── fetcher.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+└── README.md
